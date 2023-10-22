@@ -1,0 +1,555 @@
+.container {
+    width: 980px;
+    margin: 10px auto;
+    background: #fff;
+    border: 1px solid #e8e8e8;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    vertical-align: middle;
+}
+
+#top {
+    padding: 20px;
+    background: #fff;
+    border-bottom: 7px solid #f6f6f6;
+}
+
+#top .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#top .flex-container h1 {
+    float: left;
+    font-size: 12px;
+    color: #bebebe;
+}
+
+#top .flex-container h1 a {
+    color: #bebebe;
+    font-size: 16px;
+    text-decoration: none; /* Remove underline */
+}
+
+#top .flex-container h1 img {
+    margin: 0 20px 3px 0;
+}
+
+#top .flex-container h3 {
+    float: right;
+    line-height: 30px;
+    color: #cd2027;
+}
+
+#middle {
+    padding: 20px;
+    background: #fff;
+    border-bottom: 7px solid #f6f6f6;
+}
+
+#middle .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#middle .content {
+    flex: 1;
+    margin: 30px;
+}
+
+#middle h2 {
+font-size: 32px;
+padding: 10px 0 20px 0;
+line-height: 40px;
+}
+
+
+
+#middle p {
+    font-size: 16px;
+    color: #666;
+}
+
+ .button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.button.red {
+    background: #ca4500;
+    height: 39px;
+    line-height: 39px;
+    font-size: 18px;
+    padding: 0 35px;
+    border: 5px solid #f3f7f8;
+    font-weight: bold;
+
+}
+#middle strong{
+    font-weight: bold;
+    color:#0a0a0961;
+
+}
+
+
+ .button.black {
+    color:#fffffe;
+    background: #1a1919;
+    height: 39px;
+    line-height: 39px;
+    font-size: 18px;
+    padding: 0 35px;
+    border: 5px solid #f3f7f8;
+    font-weight: bold;
+
+}
+
+#middle .image-content {
+    flex: 1;
+    text-align: center;
+}
+
+#middle .image-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Existing CSS for #top and #middle sections remains the same */
+
+#list-elements {
+    padding: 20px;
+    padding: 20px;
+    background: #fff;
+    border-bottom: 7px solid #f6f6f6;
+
+}
+
+#list-elements .list-elements-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#list-elements .list-elements-icons li {
+    width: 200px;
+    height: 120px;
+    padding: 0px 0 20px 70px;
+    position: relative;
+    float: left;
+    margin: 0 50px 0 0;
+    list-style-type: none;
+}
+#list-elements .list-elements-icons li a {
+    text-decoration: none;
+    color : black;
+    font-size: 16px;
+
+}
+#list-elements .list-elements-icons li p {
+    text-decoration: none;
+    color : rgba(0, 0, 0, 0.304);
+    font-size: 12px;
+
+    
+}
+
+
+#list-elements .list-elements-icons li img {
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+#list-elements .list-elements-icons li:nth-child(3n) {
+    margin-right: 0;
+}
+
+#list-elements .list-elements-icons .remove {
+    margin-right: 0;
+}
+#checkout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#checkout .content-left {
+    flex: 1;
+    padding: 20px;
+}
+
+#checkout .content-left p {
+    font-size:12px;line-height:18px;padding:0 0 20px 0;color:#8c8c8c;
+}
+
+#checkout .content-right {
+    flex: 1;
+    padding: 10px;
+    margin-left:40px;
+}
+
+#checkout .content-right .list-elements-arrows {
+    list-style: none;
+    padding: 0;
+}
+
+#checkout .content-right .list-elements-arrows li {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    line-height:34px;background:url(http://www.shegy.nazwa.pl/themeforest/target_landing/light-aluminium/images/arrow.png) no-repeat 0 10px;padding:0 0 0 20px;border-top:1px solid #f3f3f3;
+}
+
+#checkout .content-right .list-elements-arrows a {
+    text-decoration: none;
+    color: #dd8c5c;
+
+    font-size: 12px;
+}
+#screenshots {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #fff;
+    border-bottom: 7px solid #f6f6f6;
+}
+
+.content-screenshots {
+    text-align: left;
+
+}
+.content-screenshots h3 {
+    padding-left :10px;
+    font-size: 16px;
+    color: #3c3c3c;
+}
+
+
+
+
+.list-screenshots {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.list-screenshots li {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.list-screenshots .screenshot-img {
+    position: relative;
+    border: 1px solid #e0e0e0; /* Thin border */
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflow for the shadow */
+}
+
+.list-screenshots .screenshot-shadow {
+    position: absolute;
+    width: 100%;
+    height: 20px; /* Adjust the height of the shadow */
+    bottom: 0;
+    left: 0;
+}
+
+.list-screenshots a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.list-screenshots .screenshot-img {
+    position: relative;
+    border: 1px solid #e0e0e0; /* Thin border */
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflow for the shadow */
+}
+
+.list-screenshots a img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    background: #f5f5f5;
+    padding: 4px;
+
+}
+#custom {
+    text-align: center;
+}
+
+.left-align h3 {
+    font-size : 16px;
+    margin-left:30px;
+}
+
+#testimonials {
+    position: relative;
+    width: 910px;
+    height: 163px;
+    margin: 20px auto;
+}
+
+#testimonials ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#testimonials li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 3;
+    opacity: 0;
+    width: 910px;
+    height: 163px;
+}
+
+#testimonials blockquote {
+    font-size: 18px;
+    line-height: 25px;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    padding: 20px;
+    margin: 0;
+}
+
+#testimonials .quote em {
+    font-style: italic;
+}
+
+#testimonials .author {
+    font-size : 14px;
+    margin-top: 10px;
+    margin-left:35px;
+    text-align: left;
+}
+
+#testimonials .author em {
+    font-style: italic;
+}
+
+.centered-buttons {
+    text-align: center;
+    margin: 20px;
+}
+
+.centered-buttons .button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 0 10px; /* Added margin for spacing between buttons */
+    border-radius: 5px;
+}
+
+
+
+
+.centered-buttons .button.rounded {
+    border-radius: 5px;
+}
+#custom {
+    text-align: center;
+}
+
+.left-align {
+    text-align: left;
+}
+
+#testimonials {
+    position: relative;
+    width: 910px;
+    height: 163px;
+    margin: 20px auto;
+}
+
+#testimonials ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#testimonials li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 3;
+    opacity: 0;
+    width: 910px;
+    height: 163px;
+}
+
+#testimonials blockquote {
+    font-size: 18px;
+    line-height: 25px;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    padding: 20px;
+    margin: 0;
+}
+
+#testimonials .quote em {
+    font-style: italic;
+}
+
+#testimonials .author {
+    margin-top: 10px;
+    text-align: left;
+}
+
+#testimonials .author em {
+    font-style: italic;
+}
+
+.centered-buttons {
+    text-align: center;
+    margin: 20px;
+}
+
+.centered-buttons .button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 0 10px; /* Added margin for spacing between buttons */
+    border-radius: 5px;
+}
+
+.centered-buttons .button.red {
+    background: #FF0000;
+    color: #fff;
+}
+
+.centered-buttons .button.grey {
+    background: #ccc;
+    color: #333;
+}
+
+.centered-buttons .button.rounded {
+    border-radius: 5px;
+}
+#bottom {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: flex-start; /* Căn các phần con lên trên */
+    background-image: url("http://www.shegy.nazwa.pl/themeforest/target_landing/light-aluminium/images/bottom-bg.jpg");
+    background-size: cover;
+}
+
+#bottom .content {
+    flex: 1;
+    margin: 0 10px; /* Khoảng cách giữa các phần */
+    padding: 10px; /* Khoảng cách bên trong mỗi phần con */
+    text-align: left;
+}
+#bottom .content p{
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0 0 20px 0;
+    color: #8c8c8c;   
+
+}
+
+#bottom .content h3{
+    font-size: 16px;
+    color: #cecece;
+
+}
+.content a img {
+    max-width: 100%;
+    height: auto;
+    padding : 10px;
+    padding-left:40px;
+}
+#footer{
+    padding: 0 20px;
+    background: #222;
+}
+
+
+
+.footer-left {
+    float: left;
+    width: 50%;
+    
+}
+.footer-left p{
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0 0 10px 0;
+    color: #8c8c8c;
+
+}.footer-left p a{
+    font-size: 12px;
+    color: #ea5d0b;
+
+   text-decoration: none;
+
+}
+
+
+
+.footer-right {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.social {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.social li {
+    display: inline;
+    margin-right: 10px; /* Khoảng cách giữa các phần tử li (tuỳ chọn) */
+}
+
+.clear {
+    clear: both;
+}
+
+
+#custom .button.red {
+    background: #ca4500;
+    height: 39px;
+    line-height: 39px;
+    font-size: 18px;
+    padding: 0 35px;
+    border: 5px solid #f3f7f8;
+    font-weight: bold;
+    border-radius: 30px;
+
+}
+
+#custom .button.black {
+    color:#fffffe;
+    background: #1a1919;
+    height: 39px;
+    line-height: 39px;
+    font-size: 18px;
+    padding: 0 35px;
+    border: 5px solid #f3f7f8;
+    font-weight: bold;
+    border-radius: 30px;
+
+
+}
