@@ -450,7 +450,7 @@ line-height: 40px;
     display: flex;
     justify-content: center; /* Căn giữa theo chiều ngang */
     align-items: flex-start; /* Căn các phần con lên trên */
-    background-image: url("http://www.shegy.nazwa.pl/themeforest/target_landing/light-aluminium/images/bottom-bg.jpg");
+    background-image: url("/images/bottom-bg.jpg");
     background-size: cover;
 }
 
